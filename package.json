@@ -1,0 +1,34 @@
+{
+  "name": "rigwheel",
+  "version": "1.0.0",
+  "description": "This an implementation of the bigwheel framework with React",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "bigwheel": "^3.0.2",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3"
+  },
+  "scripts": {
+    "test": "node test/",
+    "dev": "budo test/index.js --live -- -t babelify"
+  },
+  "keywords": [
+    "react,bigwheel,framework,router,routing,animation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikkoh/rigwheel.git"
+  },
+  "homepage": "https://github.com/mikkoh/rigwheel",
+  "bugs": {
+    "url": "https://github.com/mikkoh/rigwheel/issues"
+  }
+}
